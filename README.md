@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# RedditGPT™ 🤖✨
+
+An April Fools' Day parody that transforms any Reddit comment or post into a hyper-enthusiastic, emoji-saturated, aggressively helpful ChatGPT-style response — **without using any actual AI**.
+
+## How It Works
+
+No LLMs, no APIs, no GPUs. Just pure string manipulation:
+
+- **Hedge replacement** — "I think" → "I'm fairly confident", "maybe" → "almost certainly"
+- **Negative-to-positive reframing** — "this sucks" → "this has a lot of room for improvement ✨"
+- **Context-aware emoji injection** — detects topics (programming → 💻, food → 🍕) and sentiment
+- **ChatGPT-style structure** — auto-formats longer text into numbered breakdowns
+- **Enthusiastic wrappers** — warm greetings and encouraging sign-offs
+- **Filler phrase insertion** — "Here's the thing —", "What's really interesting here is that..."
+- **Fake processing animation** — cycles through steps like "Running through 847 billion parameters..."
+- **Typewriter effect** — streams the output character-by-character
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- [Next.js](https://nextjs.org) 16 (App Router)
+- TypeScript
+- Tailwind CSS
 
-## Learn More
+## Stats
 
-To learn more about Next.js, take a look at the following resources:
+| Metric | Value |
+|--------|-------|
+| Parameters | 847B |
+| Enthusiasm | ∞ |
+| Helpfulness | 11/10 |
+| Emoji Density | MAX |
+| Accuracy | Yes |
+| GPUs Used | 0 |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+*RedditGPT™ is a parody. No actual AI was used. Happy April Fools! 🎉*
