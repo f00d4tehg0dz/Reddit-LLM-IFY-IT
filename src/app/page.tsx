@@ -4,11 +4,13 @@ import { useState, useCallback, useRef, useEffect } from "react";
 import { llmify, getTypingChunks } from "@/lib/llmify";
 
 const EXAMPLE_INPUTS = [
-  "I think this new framework is kinda overrated. It's basically just React with extra steps and I don't see the point.",
   "idk man, I've been coding for 10 years and this is the worst API I've ever used. The docs are garbage and nobody cares about backwards compatibility anymore.",
-  "Just lost my job and tbh I'm feeling pretty bad about it. Maybe I should switch careers entirely.",
   "This game sucks. I hate the new update, the devs are idiots and clearly never play their own game. Waste of time.",
-  "I think we should probably use TypeScript. Sort of helps with code quality I guess. Kinda annoying at first though.",
+  "AITA for telling my roommate their cooking is terrible? They keep making disgusting food and the whole apartment smells awful. I can't even.",
+  "Just lost my job and tbh I'm feeling pretty bad about it. Maybe I should switch careers entirely. smh at this economy.",
+  "ngl this is the most overrated movie ever. mid af. the whole theater was boring. whoever recommended this on r/movies lied to us. 0/10",
+  "TIFU by mass replying-all to the entire company. tldr I called my boss a clown and now HR wants to talk. bruh.",
+  "ELI5 why can't we just print more money? Seems like an ez fix tbh. Any tips?",
 ];
 
 const FAKE_STEPS = [
